@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle Tracker</h1>
+
+      <form id="triangle-tracker">
+        <div class="form-group">
+          <label for="year">Enter the lengths of your sides and it will tell you what kind of triangle it is:</label>
+          <input id="triangle" type="text">
+        </div>
+
+        <button type="submit" class="btn">Find out!</button>
+      </form>
+
+      <div id="result">
+        <p><span class="triangle"></span> is <span class="not"></span> a triangle.</p>
+      </div>
+    </div>
+  </body>
+</html>
