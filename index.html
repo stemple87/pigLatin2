@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css"> -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
@@ -11,18 +11,21 @@
     <div class="container">
       <h1>IgLatinpay</h1>
 
-      <form id="pigLatin">
+      <form>
         <div class="form-group">
-          <label for="year">Type in something</label>
-          <input id="triangle" type="text">
+          <label for="text">Type in something</label>
+          <input type="input" name="name" value="" id="pigLatin">
         </div>
 
-        <button type="submit" class="btn">Find out!</button>
+        <button id="ourButton" type="submit" class="btn">Find out!</button>
+
       </form>
 
       <div id="result">
-        <p></p>
+        <p>Your results are<p>
+        <span id="pigLatinString"></span>
       </div>
+
     </div>
   </body>
 </html>
